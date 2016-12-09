@@ -10,6 +10,18 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+
+.JimProgress{
+ background-image: -webkit-linear-gradient(top, #EEB870, #F07F26);
+  background-image: -moz-linear-gradient(top, #EEB870, #F07F26);
+  background-image: -ms-linear-gradient(top, #EEB870, #F07F26);
+  background-image: -o-linear-gradient(top, #EEB870, #F07F26);
+  background-image: linear-gradient(to bottom, #EEB870, #F07F26);
+}
+
+
+
+
 /* Container */
 .container {
 	width: 100%;

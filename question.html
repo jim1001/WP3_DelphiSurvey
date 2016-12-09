@@ -108,17 +108,20 @@
   <form method="post" action="question2.asp" name="myForm" id="myForm">
   <section class="about" id="about">
     <h2>Questions</h2><input id="score" type="hidden" name="score" value="0" class="hideScore" />
-    
-    <div class="progress">
-		<!-- AJ added  <div class="col-md-6"> line -->
-		<div class="col-md-6">
-			<div id="OutcomesAnswered">You have answered 0 out of 5 questions</div>
+ 
+ <!-- Based on example here: http://www.w3schools.com/bootstrap/bootstrap_grid_stacked_to_horizontal.asp -->
+ <!--JimProgress  is new class in singlePageTemplate.css-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6  JimProgress"> 
+				You have answered 0 out of 5 questions
+			</div>
+			<div class="col-sm-6 JimProgress" align="right">
+				Page 1 of 6    
+			</div>
 		</div>
-		<!-- AJ added  <div class="col-md-6"> line -->		
-		<div class="col-md-6">
-			<div id="PagesCompleted">Page 1 of 6</div>
-		</div>
-    </div>
+	</div>
+	
     <br> 
     <p>Please press the <span lang="en-gb">orange </span>button you think best matches this outcome. There are no right or wrong answers. Just press the button that best describes the importance of the outcome to you.</p>
     <p>Don't worry if some questions appear not to apply to you. We have to ask the same questions of everybody. Please try to think how important each outcome might be for you or another person with dementia.</p>
